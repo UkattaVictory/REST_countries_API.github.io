@@ -301,8 +301,11 @@ header {
     max-width: none;
   }
   .filtering_region {
-    width: 50%;
+    width: 55%;
     max-width: none;
+  }
+  .filtering_region button{
+    font-size: 12px;
   }
   .selected_country {
     flex-direction: column;
