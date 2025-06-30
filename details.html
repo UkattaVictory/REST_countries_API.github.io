@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country Details</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+      integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <div class="header_content">
+          <h1>Where in the world?</h1>
+        </div>
+        <div class="toggle-theme">
+          <button id="toggle-button">
+            <i class="ri-moon-line"></i>Dark Mode
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="return">
+        <div class="return-btn">
+          <div class="back_button">
+            <button class="back">
+              <i class="ri-arrow-left-line"></i> Back
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="country_details"></section>
+      <div class="container" id="country-details"></div>
+    </main>
+    <script src="./details.js"></script>
+  </body>
+</html>
